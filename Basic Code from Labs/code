@@ -1,0 +1,12 @@
+//this file is to store code from other labs that may but useful in this project
+
+/*
+
+$("#output").append("<pre><p>" + oneLongString + "</p></pre>");
+}
+
+document.getElementById("button").addEventListener("click", pie);
+})
+
+
+*/

@@ -35,3 +35,16 @@
     width: 600px;
  }
   
+ button {
+  display: inline-block;
+  max-width: 77%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgb(171, 0, 71);
+  color: rgb(255, 222, 104);
+  font-family:monospace;
+  font-size: 1.0em;
+  box-decoration-break:slice;
+
+ }
