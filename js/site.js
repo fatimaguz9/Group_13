@@ -10,4 +10,12 @@
     }
   }
   
-  
+  //this is the call function for the randomized pies
+  //pie.recipe is what should be returned inthe text box
+  //pie.image should be returned above text box
+  var myButton = document.getElementById("button");
+  myButton.addEventListener("click",function() {
+    newText = "<p>" + pie.recipe  + "</p>";
+
+
+  });
