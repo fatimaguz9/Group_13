@@ -2,7 +2,7 @@
 const pies = [
   {
       name: "Snickers Pie",
-      image: "./img/pie.jpg",
+      image: "./img/pie.jpg", //add snickers pie pic
       ingredients: [
           "Six 1.56-ounce Snickers® candy bars, roughly chopped",
           "6 tablespoons unsalted butter, cubed",
@@ -22,7 +22,7 @@ const pies = [
   },
   {
       name: "Apple Pie",
-      image: "./img/pie.jpg",
+      image: "./img/pie.jpg", //add apple pie pic
       ingredients: [
           "6 cups thinly sliced apples",
           "3/4 cup sugar",
@@ -39,7 +39,7 @@ const pies = [
   },
   {
     name: "Cherry Pie",
-        image: "./img/pie.jpg", 
+        image: "./img/pie.jpg", //add cherry pie pic
         ingredients: [
             "2 cups fresh or frozen cherries (pitted)",
             "3/4 cup sugar",
@@ -54,26 +54,40 @@ const pies = [
         Roll out one pie crust and place it in a pie pan. Add the cherry filling. 
         Dot the filling with butter if desired. Cover with the second crust, seal edges, and cut slits on top. 
         Bake for 45 minutes or until the crust is golden brown. Cool before serving.`
-    }
+    },
+
+    { //another pie sample format 
+      name: "pie name", //add pie
+          image: "./img/pie.jpg", //add pie pic
+          ingredients: [ //pie ingredients
+              "...",
+              "...",
+              "...",
+              "...",
+              "...",
+              "...",
+          ],
+          directions: `...`//pie stuff
+      },
+
 ];
 
-// Counter to keep track of the current pie
+
+
+
+// stuff that counts the pies and loops through the list
 let currentPieIndex = 0;
 
 function nextPie() {
-  // Show the pie description if hidden
   const pieDescription = document.getElementById("pie-description");
   if (pieDescription.style.display === "none") {
       pieDescription.style.display = "block";
   }
 
-  // Increment the pie index, loop back if necessary
   currentPieIndex = (currentPieIndex + 1) % pies.length;
 
-  // Get the current pie
   const currentPie = pies[currentPieIndex];
 
-  // Update the page content
   document.getElementById("pie-name").textContent = currentPie.name;
   document.getElementById("pie-image").src = currentPie.image;
   document.getElementById("pie-ingredients").innerHTML = currentPie.ingredients
