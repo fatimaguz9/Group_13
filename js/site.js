@@ -18,4 +18,19 @@ function generateNew(){
     }
   }
   
+  //timer JS
+  function countdown(n) {
+    const intervalId = setInterval(() => {
+      if (n <= 0) {
+        clearInterval(intervalId);
+        console.log("EXPLODE");
+        // Navigate to a new screen when the countdown finishes
+        window.location.href = "./3bluescreen.html"; 
+      } else {
+        console.log(n);
+        n--;
+      }
+    }, 1000); //this equals 1 second
+  }
+  countdown(10);
   
