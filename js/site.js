@@ -70,6 +70,19 @@ const pies = [
             mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair 
             Finally, serve to your enemies. `//pie stuff
         },
+    { 
+        name: "Blackberry Pie", 
+            image: "./img/pie.jpg", //add pie pic
+            ingredients: [
+                "4 cups fresh blackberries",
+                "3/4 cup white sugar or more to taste, divided",
+                "1/2 cup all-purpose flour",
+                "1 (9 inch) double crust ready to use pie crust",
+                "2 tablespoons milk",
+                "...",
+            ],
+            directions: `...`//pie stuff
+        },
 
     { //another pie sample format 
       name: "pie name", //add pie
