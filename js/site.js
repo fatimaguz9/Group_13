@@ -55,6 +55,21 @@ const pies = [
         Dot the filling with butter if desired. Cover with the second crust, seal edges, and cut slits on top. 
         Bake for 45 minutes or until the crust is golden brown. Cool before serving.`
     },
+    { 
+        name: "Shrek's Swamp Pie",
+            image: "./img/pie.jpg", //add pie pic
+            ingredients: [
+                "3 cups Loam Soil",
+                "1 cup Water",
+                "Swamp Filling:",
+                "1 cup algae",
+                "1 cup mud",
+                "1 cup water",
+            ],
+            directions: `Mix the loam soil with water and form the crust in a pie pan. Then
+            mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair 
+            Finally, serve to your enemies. `//pie stuff
+        },
 
     { //another pie sample format 
       name: "pie name", //add pie
