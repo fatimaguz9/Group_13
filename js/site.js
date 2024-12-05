@@ -84,8 +84,14 @@ const pies = [
             ],
             directions: `...`//pie stuff
         },
-
-  
+        { //another pie sample format 
+          name: "Surprise Pie", //add pie
+              image: "./img/pie.jpg", //add pie pic 
+              ingredients: [ //pie ingredients
+                  "What pie did you get?",
+              ],
+              directions: `Wait to find out`//pie stuff
+          },
 
   { //another pie sample format 
     name: "pie name", //add pie
@@ -137,7 +143,7 @@ function nextPie() {
         clearInterval(intervalId);
         console.log("YIPPIE");
         // Navigate to a new screen when the countdown finishes
-        window.location.href = "./3bluescreen.html"; 
+        window.location.href = "./3bluescreen/index.html"; 
       } else {
         console.log(n);
         n--;
@@ -145,4 +151,9 @@ function nextPie() {
     }, 1000); //this equals 1 second
   }
   
+pies.forEach((pie) => {
+  if (pie.name === "Surprise Pie") {
+    countdown(10); // Just an example, replace with your desired time
+  }
+});
   
