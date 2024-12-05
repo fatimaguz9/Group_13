@@ -84,14 +84,15 @@ const pies = [
             ],
             directions: `...`//pie stuff
         },
-        { //another pie sample format 
-          name: "Surprise Pie", //add pie
-              image: "./img/pie.jpg", //add pie pic 
-              ingredients: [ //pie ingredients
-                  "What pie did you get?",
-              ],
-              directions: `Wait to find out`,//pie stuff
-          },
+        //having issues with not glitching the site
+      //  { //another pie sample format 
+         // name: "Surprise Pie", //add pie
+            //  image: "./img/pie.jpg", //add pie pic 
+             // ingredients: [ //pie ingredients
+               //   "What pie did you get?",
+              //],
+              //directions: `Wait to find out`,//pie stuff
+          //},
 
   { //another pie sample format 
     name: "pie name", //add pie
