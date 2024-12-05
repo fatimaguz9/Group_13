@@ -90,7 +90,7 @@ const pies = [
               ingredients: [ //pie ingredients
                   "What pie did you get?",
               ],
-              directions: `Wait to find out`//pie stuff
+              directions: `Wait to find out`,//pie stuff
           },
 
   { //another pie sample format 
@@ -136,18 +136,19 @@ function nextPie() {
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
   
+//I dont know why it crashes the sites
   //timer JS
-  function countdown(n) {
-    const intervalId = setInterval(() => {
-      if (n <= 0) {
-        clearInterval(intervalId);
-        console.log("YIPPIE");
+  //function countdown(n) {
+    //const intervalId = setInterval(() => {
+      //if (n <= 0) {
+        //clearInterval(intervalId);
+        //console.log("YIPPIE");
         // Navigate to a new screen when the countdown finishes
-        window.location.href = "./3bluescreen/index.html"; 
-      } else {
-        console.log(n);
-        n--;
-      }
-    }, 1000); //this equals 1 second
-  }
+        //window.location.href = "./3bluescreen/index.html"; 
+      //} else {
+        //console.log(n);
+        //n--;
+      //}
+    //}, 1000); //this equals 1 second
+  //}
   
