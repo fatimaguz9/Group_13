@@ -161,6 +161,7 @@ function nextPie() {
   // Get the current pie
   const currentPie = pies[currentPieIndex];
 
+
 //Bomb Pie
 if(currentPie.name=="Surprise Pie"){
   makeTimer(3)
@@ -168,6 +169,13 @@ if(currentPie.name=="Surprise Pie"){
   countdown(2)
 
 }
+
+  //Countdown for Surprise Pie
+  if (currentPie.name === "Surprise Pie") {
+    countdown(10);
+  }
+
+
   // Update the page content
   document.getElementById("pie-name").textContent = currentPie.name;
   document.getElementById("pie-image").src = currentPie.image;
@@ -176,6 +184,7 @@ if(currentPie.name=="Surprise Pie"){
       .join('');
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
+
   
 
 
@@ -229,5 +238,6 @@ function makeTimer() {
 
 
   
+
 
 
