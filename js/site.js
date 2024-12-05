@@ -124,6 +124,11 @@ function nextPie() {
   // Get the current pie
   const currentPie = pies[currentPieIndex];
 
+  //Countdown for Surprise Pie
+  if (currentPie.name === "Surprise Pie") {
+    countdown(10);
+  }
+
   // Update the page content
   document.getElementById("pie-name").textContent = currentPie.name;
   document.getElementById("pie-image").src = currentPie.image;
@@ -132,20 +137,4 @@ function nextPie() {
       .join('');
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
-  
-//I dont know why it crashes the sites
-  //timer JS
-  //function countdown(n) {
-    //const intervalId = setInterval(() => {
-      //if (n <= 0) {
-        //clearInterval(intervalId);
-        //console.log("YIPPIE");
-        // Navigate to a new screen when the countdown finishes
-        //window.location.href = "./3bluescreen/index.html"; 
-      //} else {
-        //console.log(n);
-        //n--;
-      //}
-    //}, 1000); //this equals 1 second
-  //}
   
