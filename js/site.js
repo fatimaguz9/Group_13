@@ -85,8 +85,11 @@ const pies = [
             ],
             directions: `...`//pie stuff
         },
-
-  
+        { 
+          name: "Surprise Pie", //add pie
+              image: "./img/pie.jpg", //add pie pic
+              directions: `Click to Find Out`//pie stuff
+          },
 
   { //another pie sample format 
     name: "pie name", //add pie
@@ -166,19 +169,19 @@ function nextPie() {
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
   
+//I dont know why it crashes the sites
   //timer JS
-  function countdown(n) {
-    const intervalId = setInterval(() => {
-      if (n <= 0) {
-        clearInterval(intervalId);
-        console.log("EXPLODE");
+  //function countdown(n) {
+    //const intervalId = setInterval(() => {
+      //if (n <= 0) {
+        //clearInterval(intervalId);
+        //console.log("YIPPIE");
         // Navigate to a new screen when the countdown finishes
-        window.location.href = "./3bluescreen.html"; 
-      } else {
-        console.log(n);
-        n--;
-      }
-    }, 1000); //this equals 1 second
-  }
-  
+        //window.location.href = "./3bluescreen/index.html"; 
+      //} else {
+        //console.log(n);
+        //n--;
+      //}
+    //}, 1000); //this equals 1 second
+  //}
   
