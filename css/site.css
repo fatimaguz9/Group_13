@@ -9,6 +9,7 @@
   text-align: center;
 }
 
+
 /* Centering Content (Button) */
 .center1 {
   display: flex;
@@ -74,4 +75,27 @@ button:hover {
 .center1 {
   position: static; /* Avoid using absolute where possible */
   transform: none;  /* Remove translation adjustments */
+}
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+
+
+.timer {
+  
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  background: #ffffff;
+  top: 310px;
+  left: 750px;
+  position: absolute;
 }

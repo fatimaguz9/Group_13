@@ -157,9 +157,17 @@ function nextPie() {
   NoDup(currentPieIndex);
 
 
+
   // Get the current pie
   const currentPie = pies[currentPieIndex];
 
+//Bomb Pie
+if(currentPie.name=="Surprise Pie"){
+  makeTimer(3)
+  var timerInterval = setInterval(makeTimer, 1000);
+  countdown(2)
+
+}
   // Update the page content
   document.getElementById("pie-name").textContent = currentPie.name;
   document.getElementById("pie-image").src = currentPie.image;
@@ -169,19 +177,57 @@ function nextPie() {
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
   
+
+
+
+
 //I dont know why it crashes the sites
   //timer JS
-  //function countdown(n) {
-    //const intervalId = setInterval(() => {
-      //if (n <= 0) {
-        //clearInterval(intervalId);
-        //console.log("YIPPIE");
+  function countdown(n) {
+    const intervalId = setInterval(() => {
+      if (n <= 0) {
+        clearInterval(intervalId);
+        console.log("YIPPIE");
         // Navigate to a new screen when the countdown finishes
-        //window.location.href = "./3bluescreen/index.html"; 
-      //} else {
-        //console.log(n);
-        //n--;
-      //}
-    //}, 1000); //this equals 1 second
-  //}
+        window.location.href = "./3bluescreen/index.html"; 
+      } else {
+        console.log(n);
+        n--;
+      }
+    }, 1000); //this equals 1 second
+  }
+
+
+
+// Initialize timeLeft outside the function to maintain its state
+var timeLeft = 3; // Starting from 3 seconds
+
+function makeTimer() {
   
+    // Calculate seconds (only relevant for counting down from 3 seconds)
+    var seconds = timeLeft;
+
+    // Pad single-digit seconds with a leading zero
+    seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+    // Update the HTML to display the countdown
+    $("#seconds").html(seconds );
+
+    // Decrease timeLeft by 1 each second
+    if (timeLeft > 0) {
+        timeLeft--; // Decrease the countdown
+    } else {
+        // Optionally, stop the timer or show a "Time's up" message when the timer reaches 0
+        clearInterval(timerInterval);
+        $("#seconds").html("00");
+        
+    }
+}
+
+
+
+
+
+  
+
+
