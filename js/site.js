@@ -162,7 +162,7 @@ function nextPie() {
   const currentPie = pies[currentPieIndex];
 
 
-//Bomb Pie
+//Countdown for Surprise Pie
 if(currentPie.name=="Surprise Pie"){
   makeTimer(3)
   var timerInterval = setInterval(makeTimer, 1000);
@@ -171,9 +171,7 @@ if(currentPie.name=="Surprise Pie"){
 }
 
   //Countdown for Surprise Pie
-  if (currentPie.name === "Surprise Pie") {
-    countdown(10);
-  }
+
 
 
   // Update the page content
