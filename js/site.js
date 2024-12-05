@@ -1,4 +1,5 @@
 
+var count=[]
 // Array of pie recipes
 const pies = [
   {
@@ -104,8 +105,40 @@ const pies = [
 ];
 
 
-// Counter to keep track of the current pie
+
 let currentPieIndex = 0;
+
+// No repea
+function addNumberWithoutRepeat(array, number) {
+  if (!array.includes(number)) {
+    array.push(number);
+  }
+  return array;
+}
+
+// Function that ensures pie index does not repeat until all pies are selected
+function NoDup(num) {
+  addNumberWithoutRepeat(count, num);
+
+  // If all pies have been selected, reset the count array
+  if (count.length == pies.length) {
+    count = [];
+  }
+
+  console.log("Selected pie indices: ", count);
+}
+
+// Function to generate a new pie index
+function generateNew() {
+  let number;
+  
+  // Keep generating a new pie index until we get one that hasn't been selected yet
+  do {
+    number = Math.floor(Math.random() * pies.length); 
+  } while (count.includes(number));  // Check if the pie has already been selected
+  
+  return number;
+}
 
 function nextPie() {
   // Show the pie description if hidden
@@ -114,8 +147,11 @@ function nextPie() {
       pieDescription.style.display = "block";
   }
 
-  // Increment the pie index, loop back if necessary
-  currentPieIndex = (currentPieIndex + 1) % pies.length;
+ 
+
+// Select Pie
+  currentPieIndex = generateNew();
+  NoDup(currentPieIndex);
 
 
   // Get the current pie
