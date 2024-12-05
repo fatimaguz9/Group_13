@@ -24,6 +24,11 @@
   margin: 10px 0; /* Adjust spacing as needed */
 }
 
+
+
+
+
+
 /* Description Box */
 .box {
   border: 5px solid black;
@@ -37,6 +42,15 @@
 
 /* Button Styling */
 button {
+
+
+
+
+
+
+
+
+
   display: inline-block;
   max-width: 80%; /* More room for button text */
   margin: 5px; /* Adjust margins */
