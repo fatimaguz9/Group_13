@@ -151,9 +151,3 @@ function nextPie() {
     }, 1000); //this equals 1 second
   }
   
-pies.forEach((pie) => {
-  if (pie.name === "Surprise Pie") {
-    countdown(10); // Just an example, replace with your desired time
-  }
-});
-  
