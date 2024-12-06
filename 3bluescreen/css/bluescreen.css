@@ -1,5 +1,5 @@
 body {
-<<<<<<< HEAD
+
     background-color: rgb(23, 33, 228);
   }
 
@@ -10,43 +10,3 @@ body {
     text-align: center; 
     font-size: 50px 
 }
-
-
-@keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  
-  @keyframes blinkCaret {
-    from,
-    to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: black;
-  }
-  }
-  
-  .typewriter-text::before { 
-  
-  content: attr(data-text); /* Use the data-text attribute for the text */ 
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-    color: white;
-    text-align: left;
-    white-space: normal;
-    position: absolute; 
-    top: 15%;
-  overflow: hidden; white-space: nowrap; display:inline-block;
-  
-  animation:
-              typing steps(40) infinite,
-              blinkCaret .75s step-end infinite;
-=======
-    text-align: center;
-    font-family: 'Covered By Your Grace', cursive;
-    color: white;
-    background: #531515;
->>>>>>> 44db08d39f36655e487f092efc574067b1e2697b
-  }
