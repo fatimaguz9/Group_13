@@ -73,7 +73,7 @@ const pies = [
       },
       { 
         name: "Blackberry Pie", 
-            image: "./img/pie.jpg", //add pie pic
+            image: "./img/blackberry.PNG", //add pie pic
             ingredients: [
                 "4 cups fresh blackberries",
                 "3/4 cup white sugar or more to taste, divided",
@@ -110,7 +110,7 @@ const pies = [
 
 let currentPieIndex = 0;
 
-// No repea
+// No repeats
 function addNumberWithoutRepeat(array, number) {
   if (!array.includes(number)) {
     array.push(number);
