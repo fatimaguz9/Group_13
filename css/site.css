@@ -1,57 +1,88 @@
 
-.container { 
-    height: 200px;
-    position: relative;
-  }
+/* Container Styling */
+.container {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-  .center1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    position: absolute;
-    top: 170%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+/* Centering Content (Button) */
+.center1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0; /* Adjust spacing as needed */
+}
 
-  .center2 {
-    margin: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+/* Centering Image */
+.center2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0; /* Adjust spacing as needed */
+}
 
-  .box {
-    border: 5px solid black;
-    position: absolute;
-    top: 190%;
-    padding: 10px;
-    max-height: 200px;
-    overflow-y: auto;
-    width: 600px;
- }
-  
- button {
+
+
+
+
+
+/* Description Box */
+.box {
+  border: 5px solid black;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 600px;
+  background: #fff; /* Optional: Background for the box */
+  margin-top: 20px; /* Adjust to avoid overlap */
+}
+
+/* Button Styling */
+button {
+
   display: inline-block;
-  max-width: 77%;
-  margin: 3px;
-  padding: 5px 10px;
+  max-width: 80%; /* More room for button text */
+  margin: 5px; /* Adjust margins */
+  padding: 10px 20px; /* Adjust padding for better click area */
   border-radius: 15px;
   background-color: rgb(171, 0, 71);
   color: rgb(255, 222, 104);
-  font-family:monospace;
-  font-size: 1.0em;
-  box-decoration-break:slice;
+  font-family: monospace;
+  font-size: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for style */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
- }
+button:hover {
+  background-color: rgb(140, 0, 55); /* Slightly darker hover effect */
+}
 
 
- img {
-  height: 250px;
-  width: 250px;
+.center1 {
+  position: static; /* Avoid using absolute where possible */
+  transform: none;  /* Remove translation adjustments */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+#seconds {
+  font-size: 50px;
+  color: #abcd58;
+}
+
+
+
+.timer {
   
-   }
+  text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  background: #ffffff;
+  top: 310px;
+  left: 750px;
+  position: absolute;
+}
