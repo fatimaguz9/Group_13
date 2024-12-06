@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(23, 33, 228);
+  }
+
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 40px;
+    color: white;
+    text-align: center; 
+    font-size: 50px 
+}
+
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blinkCaret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+  }
+  }
+  
+  .typewriter-text::before { 
+  
+  content: attr(data-text); /* Use the data-text attribute for the text */ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+    color: white;
+    text-align: left;
+    white-space: normal;
+    position: absolute; 
+    top: 15%;
+  overflow: hidden; white-space: nowrap; display:inline-block;
+  
+  animation:
+              typing steps(40) infinite,
+              blinkCaret .75s step-end infinite;
+  }
