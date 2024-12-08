@@ -22,11 +22,9 @@
 .center2 {
   display: flex;
   justify-content: center;
-  margin: 10px 0; /* Adjust spacing as needed */
+  margin: 50px 0; /* Adjust spacing as needed */
+  margin-top: -200px;
 }
-
-
-
 
 
 
@@ -85,4 +83,5 @@ button:hover {
   top: 310px;
   left: 750px;
   position: absolute;
+  margin-top: -150px;
 }
