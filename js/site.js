@@ -3,7 +3,7 @@ var count=[]
 const pies = [
   {
       name: "Snickers Pie",
-      image: "./img/pie.jpg",
+      image: "./img/chocolate.jpg",
       ingredients: [
           "Six 1.56-ounce Snickers® candy bars, roughly chopped",
           "6 tablespoons unsalted butter, cubed",
@@ -147,7 +147,7 @@ Cool completely on a wire cooling rack. Serve immediately with whipped cream and
 
               {  
                 name: "Chocolate Pie (From The Pioneer Woman)", 
-                    image: "./img/pie.jpg", //add pie pic
+                    image: "./img/chocolate.jpg", //add pie pic
                     ingredients: [ 
                       "1 1/2 cup sugar",
                       "1/4 cup cornstarch",
