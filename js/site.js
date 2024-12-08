@@ -399,15 +399,17 @@ if(currentPie.name=="Surprise Pie"){
   // Update the page content
   document.getElementById("pie-name").textContent = currentPie.name;
   document.getElementById("pie-image").src = currentPie.image;
+  document.getElementById("pie-ingredients").textContent = currentPie.ingredients;
+  
+  // Get the ingredients container
+  ingredientsContainer = document.getElementById("pie-ingredients");
 
-
-  const ingredientsContainer = document.getElementById("pie-ingredients");
-  // Loop through the ingredients and add each to the list
-  currentPie.ingredients.forEach(function(ingredient) {
-    const li = document.createElement("li");
-    li.textContent = ingredient;  // Set the text content of the list item
-    ingredientsContainer.appendChild(li);  // Append the list item to the <ul>
-  });
+      // Loop through ingredients and add them as list items
+      currentPie.ingredients.forEach(function(ingredient) {
+        const li = document.createElement("li");
+        li.textContent = ingredient;
+        ingredientsContainer.appendChild(li);
+      });
 
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
