@@ -254,7 +254,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                               "1 teaspoon key lime zest"
                           ],
                           directions: `Preheat oven to 350 degrees F
- Make the Crust: Using a food processor, pulse the graham crackers and macadamia nuts together into coarse crumbs. A few larger pieces of nuts is OK. Pour into a medium bowl and stir in the sugar. Add the melted butter and stir until combined. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased 9-inch pie dish. Use your hand to pat down the crumbs into the bottom and up the sides to make a crust. Use medium pressure—simply pat down until the mixture is no longer crumbly. Tips: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom “corner” where the edge and bottom meet to help make a rounded crust⁠—this helps prevent the crust from falling apart when you slice into the pie.  
+ Make the Crust: Using a food processor, pulse the graham crackers and macadamia nuts together into coarse crumbs. A few larger pieces of nuts is OK. Pour into a medium bowl and stir in the sugar. Add the melted butter and stir until combined. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased 9-inch pie dish. Use your hand to pat down the crumbs into the bottom and up the sides to make a crust. Use medium pressure—simply pat down until the mixture is no longer crumbly. Tips: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom corner where the edge and bottom meet to help make a rounded crust—this helps prevent the crust from falling apart when you slice into the pie.  
  Pre-bake the crust for 8 minutes. Remove from the oven and leave the oven on.
 Make the Filling: Whisk the sweetened condensed milk, lime juice, and egg yolks together (or use an electric mixer). Whisk in the lime zest. Pour into warm crust.
 Bake the pie for 18-20 minutes or until only *slightly* jiggly in the center. You want it mostly set. Remove from the oven and allow to cool completely on a wire rack. Once cool, cover and chill for at least 1 hour (and up to 3 days) before serving
@@ -400,6 +400,14 @@ if(currentPie.name=="Surprise Pie"){
   document.getElementById("pie-name").textContent = currentPie.name;
   document.getElementById("pie-image").src = currentPie.image;
 
+
+  const ingredientsContainer = document.getElementById("pie-ingredients");
+  // Loop through the ingredients and add each to the list
+  currentPie.ingredients.forEach(function(ingredient) {
+    const li = document.createElement("li");
+    li.textContent = ingredient;  // Set the text content of the list item
+    ingredientsContainer.appendChild(li);  // Append the list item to the <ul>
+  });
 
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
