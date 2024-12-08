@@ -218,7 +218,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
 
                     {  
                       name: "Coconut Cream Pie ", 
-                          image: "./img/pie.jpg", //add pie pic
+                          image: "./img/coconutpie.PNG", //add pie pic
                           ingredients: [ 
                               "1 cup sweetened flaked coconut",
                                "3 cups half-and-half",
@@ -317,7 +317,25 @@ Pour Onion Mix Into Pie Shell, Then Top With Egg Mixture, cheese, salt, and pepp
 Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie! You can tell it is done if it doesn't jiggle. I piped some sour cream onto the wedges once I realized I would have a single remaining unclogged arterie after all was said and done. Turned out delish, although the Doritos presented a very subtle flavor. I should have used more.`
                             }, 
                           
+                            { 
+                              name: "Peach Pie", //Sally's Baking Recipies
+                                  image: "./img/peachpie.PNG", 
+                                  ingredients: [ //pie ingredients
+                                      "2 and 1/2 cups all purpose flour (spooned and leveled)",
+                                      "2 teaspoons granulated sugar",
+                                      "1 teaspoon salt",
+                                      "1 cup (16 Tbsp) unsalted butter, chilled and cubed",
+                                      "1/2 cup (120ml) ice water, more if needed",
+                                  ],
+                                  directions: `Mix the flour, sugar, and salt together in a large bowl. Add the cubed butter on top.
+Using a pastry cutter, food processor, or two forks (pastry cutter is ideal, see post above), cut the butter into the dry ingredients until all flour is coated. You’re looking for pea-sized bits of flour coated butter. A few larger bits of butter is OK.
+Measure 1/2 cup (120ml) of water in a cup. Add ice. Stir it around. From that, measure 1/2 cup (120ml) of water since the ice has melted a bit. Drizzle the cold water in, 2 Tablespoons (30ml) at a time, and stir after each addition. Stop adding water when the dough comes together easily and begins to form large clumps. The dough will feel moist and a little sticky, but not feel overly wet. Do not add any more water than you need to. I always use about 1/2 cup (120ml) of ice water.
 
+Place pie dough on a lightly floured work surface. Using floured hands, fold the dough into itself until the flour is fully incorporated into the fats. Form it into a ball. Divide dough in half. Using your hands, flatten each half into a 1-inch thick disc.
+Wrap each disc tightly in plastic wrap and refrigerate for at least 2 hours and up to 5 days before using in a pie recipe.
+When rolling out the chilled pie dough discs, use gentle force with your rolling pin. Start from the center of the disc and work your way out in all directions, turning the dough with your hands between rolls. Smooth out the edges if you notice cracks. (See video above.) Keeping your work surface, rolling pin, and hands lightly floured makes rolling out easier.
+Proceed with the pie per your recipe’s instructions.`
+                              }, 
 
                       { //another pie sample format 
                         name: "pie name", //add pie
