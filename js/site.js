@@ -23,7 +23,7 @@ const pies = [
   },
   {
       name: "Apple Pie",
-      image: "./img/apple.jpg",
+      image: "./img/apple.PNG",
       ingredients: [
           "6 cups thinly sliced apples",
           "3/4 cup sugar",
@@ -126,7 +126,7 @@ Tip: Press the sweet potatoes through a fine-mesh sieve for an even smoother tex
 
             {  
               name: "Pumpkin Pie", 
-                  image: "./img/pumpkin.jpg", //add pie pic
+                  image: "./img/pumpkin.PNG", //add pie pic
                   ingredients: [ 
                     "1 9-inch homemade pie crust or store-bought, deep dish, unbaked",
                     "3/4 cup granulated sugar",
