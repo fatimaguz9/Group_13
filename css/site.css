@@ -22,13 +22,15 @@
 .center2 {
   display: flex;
   justify-content: center;
-  margin: 10px 0; /* Adjust spacing as needed */
+  margin: 50px 0; /* Adjust spacing as needed */
+  margin-top: -300px;
 }
+/* Lowering Title*/
+#content {
+  margin-bottom: 50px;
+  font-size: 30px;
 
-
-
-
-
+}
 
 /* Description Box */
 .box {
@@ -85,4 +87,5 @@ button:hover {
   top: 310px;
   left: 750px;
   position: absolute;
+  margin-top: -160px;
 }
