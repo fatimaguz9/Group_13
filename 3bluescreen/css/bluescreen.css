@@ -9,7 +9,7 @@ body {
   }
 
 .typewriter {
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     overflow: hidden;
     width: 0;
@@ -57,4 +57,8 @@ a:hover {
 
 ul {
     list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
