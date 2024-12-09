@@ -58,7 +58,7 @@ const pies = [
     },
     { 
       name: "Shrek's Swamp Pie",
-          image: "./img/shrekpie.png", //add pie pic
+          image: "./img/shrekpie.png", 
           ingredients: [
               "3 cups Loam Soil",
               "1 cup Water",
@@ -69,11 +69,11 @@ const pies = [
           ],
           directions: `Mix the loam soil with water and form the crust in a pie pan. Then
           mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair 
-          Finally, serve to your enemies. `//pie stuff
+          Finally, serve to your enemies. `
       },
       { 
         name: "Blackberry Pie", 
-            image: "./img/blackberry.PNG", //add pie pic
+            image: "./img/blackberry.PNG", 
             ingredients: [
                 "4 cups fresh blackberries",
                 "3/4 cup white sugar or more to taste, divided",
@@ -82,12 +82,13 @@ const pies = [
                 "2 tablespoons milk",
                 "...",
             ],
-            directions: `...`//pie stuff
+            directions: `Line the prepared plate with the bottom crust. 
+            Fill the pie and cover with the top crust. Brush the pie with milk and sprinkle it with sugar. Bake the pie until the filling is bubbly and the topping is golden brown.`//pie stuff
         },
         { 
-          name: "Surprise Pie", //add pie
-              image: "./img/surprise pie.png", //add pie pic
-              directions: `Click to Find Out`//pie stuff
+          name: "Surprise Pie", 
+              image: "./img/surprise pie.png", 
+              directions: `OOH what's this??`
           },
       
       {  
@@ -126,7 +127,7 @@ Tip: Press the sweet potatoes through a fine-mesh sieve for an even smoother tex
 
             {  
               name: "Pumpkin Pie", 
-                  image: "./img/pumpkin.PNG", //add pie pic
+                  image: "./img/pumpkin.PNG", 
                   ingredients: [ 
                     "1 9-inch homemade pie crust or store-bought, deep dish, unbaked",
                     "3/4 cup granulated sugar",
@@ -168,7 +169,7 @@ Cut it into slices and serve with whipped cream!`
 
                 {  
                   name: "Pizza Pie (From The Gracious Pantry)", 
-                      image: "./img/pizza pie.png", //add pie pic
+                      image: "./img/pizza pie.png", 
                       ingredients: [ 
                         "1 standard pie crust",
                         "1 cup grated zucchini",
@@ -207,18 +208,18 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                         ],
                         directions: `Preheat oven to 450 degrees Fahrenheit. Mix flour with salt in a small bowl. Use a pastry blender to cut in shortening. Mix in the water 
                         until it holds as a dough, then roll it out on a lightly floured surface to a circle with a radius about ¾" inch longer than the pie tin. Get it into the 
-                        pie tin and smooth out any tears or cracks.  Flute the edges to made it beautiful (you can do this by placing the index finger and thumb of one hand against the 
+                        pie tin and smooth out any tears or cracks. Flute the edges to made it beautiful (you can do this by placing the index finger and thumb of one hand against the 
                         outside of the shell and gently pulling in while the index finger of your other hand pushes out from the inside of the shell between your other two fingers). 
                         Prick the bottom and sides with a fork and bake 12-15 minutes until lightly browned. Bring the water to a boil in a large saucepan, then turn off the 
                         heat and dump in the big package of lime jello mix and use a whisk to stir it until everything is blended. Stir in the wicked elixir. 
-                        Stir in the pudding mix. Stir in the cornstarch, the powdered sugar, the whipped cream, and then the small jello package.  Whisk everything around 
-                        so it’s blended smoothly and there aren’t any lumps. Add food colouring as desired.** Pour as much slime as you can into the cooled pie shells. 
+                        Stir in the pudding mix. Stir in the cornstarch, the powdered sugar, the whipped cream, and then the small jello package. Whisk everything around 
+                        so it’s blended smoothly and there aren’t any lumps. Add food colouring as desired.** Pour as much slime as you can into the cooled pie shells.
                         Just make sure you can carry them to your thermal hull without spilling. Refrigerate your miracles for a couple hours or so until the slime sets.`
                     },
 
                     {  
                       name: "Coconut Cream Pie ", 
-                          image: "./img/coconutpie.PNG", //add pie pic
+                          image: "./img/coconutpie.PNG", 
                           ingredients: [ 
                               "1 cup sweetened flaked coconut",
                                "3 cups half-and-half",
@@ -242,7 +243,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
 
                    { 
                       name: "Key Lime Pie", 
-                          image: "./img/keylime.PNG", //add pie pic
+                          image: "./img/keylime.PNG", 
                           ingredients: [ 
                               "11 (about 160g) full-sheet graham crackers",
                               "1/2 cup (62g) salted macadamia nuts (roasted)",
@@ -263,7 +264,7 @@ Garnish as desired. Store leftovers in the refrigerator for up to 1 week.`
 
                       {  
                         name: "No-Bake Peanut Butter Fluff Pie", 
-                            image: "./img/peanut butter pie.png", //add pie pic
+                            image: "./img/peanut butter pie.png", 
                             ingredients: [ 
                                 "1 package (8-ounce) cream cheese, at room temperature",
                                 "1 1/4 cups smooth peanut butter",
@@ -281,7 +282,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                         {  
                           name: "Dino Nuggie Pie", 
-                              image: "./img/dino nuggets.png", //add pie pic
+                              image: "./img/dino nuggets.png", 
                               ingredients: [
                                 "3 cups Dino nuggets",
                                 "2 tablespoons Dipping sauce of choice"
@@ -291,7 +292,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                           { 
                             name: "Dorito Pie", 
-                                image: "./img/dorito pie.png", //add pie pic
+                                image: "./img/dorito pie.png", 
                                 ingredients: [
                                   "1 cup All Purpose Flour",
                                   "1/3 cup Lard",
@@ -337,19 +338,20 @@ When rolling out the chilled pie dough discs, use gentle force with your rolling
 Proceed with the pie per your recipe’s instructions.`
                               }, 
 
-                      { //another pie sample format 
-                        name: "pie name", //add pie
-                            image: "./img/pie.jpg", //add pie pic
-                            ingredients: [ //pie ingredients
-                                "...",
-                                "...",
-                                "...",
-                                "...",
-                                "...",
-                                "...",
-                            ],
-                            directions: `...`//pie stuff
-                        }, 
+                              //Template to add more pies
+                      //{   
+                       // name: "pie name", //add pie
+                           // image: "./img/pie.jpg", //add pie pic
+                           // ingredients: [ //pie ingredients
+                           //     "...",
+                           //     "...",
+                           //     "...",
+                           //     "...",
+                           //     "...",
+                           //    "...",
+                           // ],
+                           // directions: `...`//pie stuff
+                       // }, 
 
 ];
 
@@ -433,11 +435,22 @@ if(currentPie.name=="Surprise Pie"){
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
   
+//background color changer  
+let seconds = 0;
+
+function updateTimer() {
+  seconds++;
+  const timerElement = document.querySelector(".timer");
+  if (timerElement) {
+    timerElement.innerText = seconds;
+    // Change background color only when the timer updates
+    document.body.style.backgroundColor = getRandomColor();
+}
+}
 
 
 
 
-//I dont know why it crashes the sites
   //timer JS
   function countdown(n) {
     const intervalId = setInterval(() => {
