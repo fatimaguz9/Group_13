@@ -5,7 +5,7 @@ const pies = [
       name: "Snickers Pie",
       image: "./img/chocolate.PNG",
       ingredients: [
-          "Six 1.56-ounce Snickers® candy bars, roughly chopped",
+          "Six 1.56-ounce Snickers candy bars, roughly chopped",
           "6 tablespoons unsalted butter, cubed",
           "One 9-ounce package chocolate wafer cookies",
           "1/2 cup dulce de leche",
