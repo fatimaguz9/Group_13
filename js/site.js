@@ -3,7 +3,7 @@ var count=[]
 const pies = [
   {
       name: "Snickers Pie",
-      image: "./img/chocolate.jpg",
+      image: "./img/chocolate.PNG",
       ingredients: [
           "Six 1.56-ounce Snickers® candy bars, roughly chopped",
           "6 tablespoons unsalted butter, cubed",
@@ -40,7 +40,7 @@ const pies = [
   },
   {
     name: "Cherry Pie",
-        image: "./img/cherry.JPG", 
+        image: "./img/cherry.PNG", 
         ingredients: [
             "2 cups fresh or frozen cherries (pitted)",
             "3/4 cup sugar",
@@ -242,7 +242,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
 
                    { 
                       name: "Key Lime Pie", 
-                          image: "./img/keylime.jpg", //add pie pic
+                          image: "./img/keylime.PNG", //add pie pic
                           ingredients: [ 
                               "11 (about 160g) full-sheet graham crackers",
                               "1/2 cup (62g) salted macadamia nuts (roasted)",
