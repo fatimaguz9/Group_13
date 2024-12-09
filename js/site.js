@@ -168,7 +168,7 @@ Cut it into slices and serve with whipped cream!`
 
                 {  
                   name: "Pizza Pie (From The Gracious Pantry)", 
-                      image: "./img/pie.jpg", //add pie pic
+                      image: "./img/pizza pie.png", //add pie pic
                       ingredients: [ 
                         "1 standard pie crust",
                         "1 cup grated zucchini",
@@ -263,7 +263,7 @@ Garnish as desired. Store leftovers in the refrigerator for up to 1 week.`
 
                       {  
                         name: "No-Bake Peanut Butter Fluff Pie", 
-                            image: "./img/pie.jpg", //add pie pic
+                            image: "./img/peanut butter pie.png", //add pie pic
                             ingredients: [ 
                                 "1 package (8-ounce) cream cheese, at room temperature",
                                 "1 1/4 cups smooth peanut butter",
@@ -281,7 +281,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                         {  
                           name: "Dino Nuggie Pie", 
-                              image: "./img/pie.jpg", //add pie pic
+                              image: "./img/dino nuggets.png", //add pie pic
                               ingredients: [
                                 "3 cups Dino nuggets",
                                 "2 tablespoons Dipping sauce of choice"
@@ -291,7 +291,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                           { 
                             name: "Dorito Pie", 
-                                image: "./img/pie.jpg", //add pie pic
+                                image: "./img/dorito pie.png", //add pie pic
                                 ingredients: [
                                   "1 cup All Purpose Flour",
                                   "1/3 cup Lard",
