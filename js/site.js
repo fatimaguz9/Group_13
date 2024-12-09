@@ -188,8 +188,8 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                   },
 
                   { 
-                    name: "Gamzees Sopor Slime Pie Recipe from Homestuck", 
-                        image: "./img/pie.jpg", //add pie pic
+                    name: "Gamzee's Sopor Slime Pie Recipe from Homestuck", 
+                        image: "./img/sopor_slime.jpg", //add pie pic
                         ingredients: [ 
                             "1 1/4 cups flour",
                             "1/2 tsp salt",
