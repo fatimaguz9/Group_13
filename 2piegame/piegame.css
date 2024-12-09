@@ -45,12 +45,12 @@
   .falling-object{
     top: 0px;
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 85px;
+    width: 85px;
   }
   #basket{
-    height: 50px;
-    width: 80px;
+    height: 80px;
+    width: 100px;
     position: absolute;
     bottom: 5px;
     background-image: url('../img/apple.PNG');
