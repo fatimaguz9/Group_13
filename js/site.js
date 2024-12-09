@@ -269,13 +269,13 @@ Garnish as desired. Store leftovers in the refrigerator for up to 1 week.`
                                 "1 package (8-ounce) cream cheese, at room temperature",
                                 "1 1/4 cups smooth peanut butter",
                                 "1 cup heavy cream",
-                                "1 cup marshmallow crème (such as Fluff)",
+                                "1 cup marshmallow creme (such as Fluff)",
                                 "1/4 cup smooth peanut butter",
-                                "1 cup marshmallow crème (such as Fluff)"
+                                "1 cup marshmallow creme (such as Fluff)"
                             ],
                             directions: `Butter a 9 1/2-inch deep-dish pie dish.
 Melt the butter in a large saucepan over medium-low heat. Add 2 cups of the marshmallow creme and whisk continuously until melted and combined with the butter, about 2 minutes. Remove from the heat and stir in the cereal and pretzels until coated. Press the mixture into the bottom and all the way up the sides of the prepared pie dish. 
-Meanwhile, beat the cream cheese, 1 cup of the marshmallow crème and 1 cup of the peanut butter in a large bowl with an electric mixer on medium speed until smooth, about 2 minutes. Slowly pour in the heavy cream and continue beating until light, fluffy and stiff peaks form, about 5 minutes. 
+Meanwhile, beat the cream cheese, 1 cup of the marshmallow creme and 1 cup of the peanut butter in a large bowl with an electric mixer on medium speed until smooth, about 2 minutes. Slowly pour in the heavy cream and continue beating until light, fluffy and stiff peaks form, about 5 minutes. 
 Pour the filling into the crust and smooth out the top, taking care not to cover the crust edge. Microwave the remaining 1/4 cup peanut butter in a small microwave-safe bowl in 30-second intervals, stirring after each, until melted and pourable, about 1 minute.
 Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshmallow creme onto the center of the pie and smooth it out slightly so that it looks like a soft marshmallow pillow. Drizzle with the remaining peanut butter. Chill until set, 6 hours and up to overnight. `//pie stuff
                         },
