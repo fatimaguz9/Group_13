@@ -435,6 +435,12 @@ if(currentPie.name=="Surprise Pie"){
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
   
+//font changes color 
+setInterval(() => {
+  const element = document.querySelector('#seconds');
+ element.style.color = getRandomColor();
+},1000);
+
 //background color changer  
 let seconds = 0;
 
