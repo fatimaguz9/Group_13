@@ -86,7 +86,7 @@ const pies = [
         },
         { 
           name: "Surprise Pie", //add pie
-              image: "./img/pie.jpg", //add pie pic
+              image: "./img/surprise pie.png", //add pie pic
               directions: `Click to Find Out`//pie stuff
           },
       
@@ -189,7 +189,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
 
                   { 
                     name: "Gamzee's Sopor Slime Pie Recipe from Homestuck", 
-                        image: "./img/sopor_slime.jpg", //add pie pic
+                        image: "./img/sopor_slime.png", //add pie pic
                         ingredients: [ 
                             "1 1/4 cups flour",
                             "1/2 tsp salt",
