@@ -40,7 +40,7 @@ const pies = [
   },
   {
     name: "Cherry Pie",
-        image: "./img/pie.jpg", 
+        image: "./img/cherry.JPG", 
         ingredients: [
             "2 cups fresh or frozen cherries (pitted)",
             "3/4 cup sugar",
