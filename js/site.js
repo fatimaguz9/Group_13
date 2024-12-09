@@ -68,7 +68,7 @@ const pies = [
               "1 cup water",
           ],
           directions: `Mix the loam soil with water and form the crust in a pie pan. Then
-          mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair 
+          mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair. 
           Finally, serve to your enemies. `
       },
       { 
@@ -255,7 +255,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                               "1 teaspoon key lime zest"
                           ],
                           directions: `Preheat oven to 350 degrees F
- Make the Crust: Using a food processor, pulse the graham crackers and macadamia nuts together into coarse crumbs. A few larger pieces of nuts is OK. Pour into a medium bowl and stir in the sugar. Add the melted butter and stir until combined. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased 9-inch pie dish. Use your hand to pat down the crumbs into the bottom and up the sides to make a crust. Use medium pressure—simply pat down until the mixture is no longer crumbly. Tips: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom corner where the edge and bottom meet to help make a rounded crust—this helps prevent the crust from falling apart when you slice into the pie.  
+ Make the Crust: Using a food processor, pulse the graham crackers and macadamia nuts together into coarse crumbs. A few larger pieces of nuts is OK. Pour into a medium bowl and stir in the sugar. Add the melted butter and stir until combined. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased 9-inch pie dish. Use your hand to pat down the crumbs into the bottom and up the sides to make a crust. Use medium pressure — simply pat down until the mixture is no longer crumbly. Tips: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom corner where the edge and bottom meet to help make a rounded crust. This helps prevent the crust from falling apart when you slice into the pie.  
  Pre-bake the crust for 8 minutes. Remove from the oven and leave the oven on.
 Make the Filling: Whisk the sweetened condensed milk, lime juice, and egg yolks together (or use an electric mixer). Whisk in the lime zest. Pour into warm crust.
 Bake the pie for 18-20 minutes or until only *slightly* jiggly in the center. You want it mostly set. Remove from the oven and allow to cool completely on a wire rack. Once cool, cover and chill for at least 1 hour (and up to 3 days) before serving
@@ -312,10 +312,10 @@ Dump the dough ball on a peice of waxed paper, and place a second peice of waxed
 Peel off the top piece of waxed paper. Place your pie tin on top of the dough, upside down. Then flip the whole works over so that the pastry shell falls into the pie tin. Then peel the remaining peice of paper back, and press the dough into the pie tin. The edges can be crunched up with your fingertips, then squished with the tines of a fork to make them look semi-presentable. Bake the pie shell at 350 degrees for 5 minutes. This prevents a doughy pie shell. Set the now pre-baked shell aside, while you turn to your filling.
 Cut Up the Onions and Bell Peppers, and Fry Them Up on medium high heat until they are transluscent.
 Crush two cups of Doritos in a small food processor and let it run for about 45 seconds. 
-Add the Dorito Crumbs to the Onion and Pepper Mixture, Add and stir. I should try this with jalapenos next time. 
+Add the Dorito Crumbs to the Onion and Pepper Mixture, Add and stir. 
 Beat the Eggs and Sour Cream Together until smooth
 Pour Onion Mix Into Pie Shell, Then Top With Egg Mixture, cheese, salt, and pepper 
-Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie! You can tell it is done if it doesn't jiggle. I piped some sour cream onto the wedges once I realized I would have a single remaining unclogged arterie after all was said and done. Turned out delish, although the Doritos presented a very subtle flavor. I should have used more.`
+Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie!`
                             }, 
                           
                             { 
