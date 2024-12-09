@@ -93,7 +93,7 @@ const pies = [
       
       {  
         name: "Sweet Potato Pie", 
-          image: "./img/pietransparant.png", //add pie pic
+          image: "./img/pie.jpg", //add pie pic
            ingredients: [ 
               "1 all-butter pie crust",
               "1 1/2 lb. sweet potatoes",
