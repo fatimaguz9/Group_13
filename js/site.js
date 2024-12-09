@@ -87,13 +87,13 @@ const pies = [
         },
         { 
           name: "Surprise Pie", 
-              image: "./img/surprise pie.png", 
+              image: "./img/surprisepie.png", 
               directions: `OOH what's this??`
           },
       
       {  
         name: "Sweet Potato Pie", 
-          image: "./img/pie.jpg", //add pie pic
+          image: "./img/sweetpotato.png", //add pie pic
            ingredients: [ 
               "1 all-butter pie crust",
               "1 1/2 lb. sweet potatoes",
@@ -169,7 +169,7 @@ Cut it into slices and serve with whipped cream!`
 
                 {  
                   name: "Pizza Pie (From The Gracious Pantry)", 
-                      image: "./img/pizza pie.png", 
+                      image: "./img/pizzapie.png", 
                       ingredients: [ 
                         "1 standard pie crust",
                         "1 cup grated zucchini",
@@ -282,7 +282,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                         {  
                           name: "Dino Nuggie Pie", 
-                              image: "./img/dino nuggets.png", 
+                              image: "./img/dinonuggets.png", 
                               ingredients: [
                                 "3 cups Dino nuggets",
                                 "2 tablespoons Dipping sauce of choice"
@@ -292,7 +292,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                           { 
                             name: "Dorito Pie", 
-                                image: "./img/dorito pie.png", 
+                                image: "./img/doritopie.png", 
                                 ingredients: [
                                   "1 cup All Purpose Flour",
                                   "1/3 cup Lard",
