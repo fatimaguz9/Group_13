@@ -147,7 +147,7 @@ Cool completely on a wire cooling rack. Serve immediately with whipped cream and
 
               {  
                 name: "Chocolate Pie (From The Pioneer Woman)", 
-                    image: "./img/chocolate.jpg", //add pie pic
+                    image: "./img/chocolate.PNG", //add pie pic
                     ingredients: [ 
                       "1 1/2 cup sugar",
                       "1/4 cup cornstarch",
