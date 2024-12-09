@@ -242,7 +242,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
 
                    { 
                       name: "Key Lime Pie", 
-                          image: "./img/pie.jpg", //add pie pic
+                          image: "./img/keylime.jpg", //add pie pic
                           ingredients: [ 
                               "11 (about 160g) full-sheet graham crackers",
                               "1/2 cup (62g) salted macadamia nuts (roasted)",
