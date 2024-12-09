@@ -438,18 +438,19 @@ if(currentPie.name=="Surprise Pie"){
 //background color changer  
 let seconds = 0;
 
+function getRandomColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
+
 function updateTimer() {
   seconds++;
   const timerElement = document.querySelector(".timer");
   if (timerElement) {
     timerElement.innerText = seconds;
+  }
     // Change background color only when the timer updates
     document.body.style.backgroundColor = getRandomColor();
 }
-}
-
-
-
 
   //timer JS
   function countdown(n) {
