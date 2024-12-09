@@ -264,7 +264,7 @@ Garnish as desired. Store leftovers in the refrigerator for up to 1 week.`
 
                       {  
                         name: "No-Bake Peanut Butter Fluff Pie", 
-                            image: "./img/peanut butter pie.png", 
+                            image: "./img/peanutbutterpie.png", 
                             ingredients: [ 
                                 "1 package (8-ounce) cream cheese, at room temperature",
                                 "1 1/4 cups smooth peanut butter",
