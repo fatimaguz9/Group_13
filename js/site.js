@@ -34,7 +34,7 @@ const pies = [
           "1 tablespoon lemon juice",
           "1 double pie crust"
       ],
-      directions: `Preheat oven to 425°F. In a bowl, mix apples, sugar, flour, cinnamon, nutmeg, and lemon juice. 
+      directions: `Preheat oven to 425 degrees F. In a bowl, mix apples, sugar, flour, cinnamon, nutmeg, and lemon juice. 
       Place one crust in a pie pan and add the apple mixture. Top with the second crust, seal edges, and cut slits on the top. 
       Bake for 45 minutes or until crust is golden.`
   },
@@ -50,7 +50,7 @@ const pies = [
             "1 double pie crust",
             "1 tablespoon butter (optional, for dotting the filling)"
         ],
-        directions: `Preheat oven to 375°F. In a saucepan, combine cherries, sugar, cornstarch, almond extract, and lemon juice. 
+        directions: `Preheat oven to 375 degrees F. In a saucepan, combine cherries, sugar, cornstarch, almond extract, and lemon juice. 
         Cook over medium heat until the mixture thickens and starts to bubble. Remove from heat. 
         Roll out one pie crust and place it in a pie pan. Add the cherry filling. 
         Dot the filling with butter if desired. Cover with the second crust, seal edges, and cut slits on top. 
@@ -142,7 +142,7 @@ Tip: Press the sweet potatoes through a fine-mesh sieve for an even smoother tex
                   directions: `Preheat oven to 425 degrees F.
 In a large bowl, beat the eggs and pumpkin together.  In a separate bowl, combine the sugar, cinnamon, salt, ginger and cloves, and add to pumpkin mixture.
 Gradually stir in the evaporated milk. Carefully pour mixture into unbaked pie shell. 
-Bake at 425 degrees F for 15 minutes. Reduce temperature to 350° F; bake for 40 to 50 minutes longer, or until the pie is set. Check for doneness by giving the pie a gentle wiggle. The center may jiggle just a tiny bit. It will continue to set up as it cools. Or, it is done when a sharp knife inserted in the center comes out clean.
+Bake at 425 degrees F for 15 minutes. Reduce temperature to 350 degrees F; bake for 40 to 50 minutes longer, or until the pie is set. Check for doneness by giving the pie a gentle wiggle. The center may jiggle just a tiny bit. It will continue to set up as it cools. Or, it is done when a sharp knife inserted in the center comes out clean.
 Cool completely on a wire cooling rack. Serve immediately with whipped cream and caramel pecan topping, if desired` 
               },
 
@@ -207,7 +207,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                             "Food colouring as desired",
                         ],
                         directions: `Preheat oven to 450 degrees Fahrenheit. Mix flour with salt in a small bowl. Use a pastry blender to cut in shortening. Mix in the water 
-                        until it holds as a dough, then roll it out on a lightly floured surface to a circle with a radius about ¾" inch longer than the pie tin. Get it into the 
+                        until it holds as a dough, then roll it out on a lightly floured surface to a circle with a radius about 3/4" inch longer than the pie tin. Get it into the 
                         pie tin and smooth out any tears or cracks. Flute the edges to made it beautiful (you can do this by placing the index finger and thumb of one hand against the 
                         outside of the shell and gently pulling in while the index finger of your other hand pushes out from the inside of the shell between your other two fingers). 
                         Prick the bottom and sides with a fork and bake 12-15 minutes until lightly browned. Bring the water to a boil in a large saucepan, then turn off the 
