@@ -88,10 +88,15 @@ button:hover {
   text-align: center;
   font-family: 'Covered By Your Grace', cursive;
   background: transparent;
-  top: 52%;
+  top: 66%;
   bottom: 25%;
   left: 47%;
   right: 50%;
   position: absolute;
   margin-top: -125px;
+}
+
+.img {
+  width: 430px;
+  height: 595px;
 }
