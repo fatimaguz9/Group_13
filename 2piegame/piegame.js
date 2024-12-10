@@ -18,7 +18,7 @@ lifee.innerText = `Life : ${life}`;
 document.addEventListener('mousemove', (e) => {
   // Get the mouse position relative to the viewport
   let basketPosition = e.clientX - basket.offsetWidth / 2;
-  
+
   // Ensure the basket stays within the game container bounds
   if (basketPosition < 0) {
     basketPosition = 0; // Prevent moving past the left edge
@@ -101,8 +101,17 @@ function createFallingObject() {
 
     // Remove object if it falls out of view
     if (objectTop >= gamecontainer.clientHeight - object.offsetHeight) {
+      if (!object.classList.contains('bomb')) {
+        life = life - 1;
+        lifee.textContent = `Life : ${life}`; // Update the life display
+        if (life == 0) {
+          location.reload();
+        }
+      }
       object.remove();
     }
+   
+  
 
     requestAnimationFrame(fallObject); // Continue animation
   }
@@ -123,9 +132,9 @@ let lastScore = 0; // To keep track of the last score when interval was updated
 // Function to update the interval dynamically
 function updateInterval() {
   // Only update interval when score increases and reaches a new multiple of 5
-  if (score % 2 === 0 && score > lastScore) {
+  if (score % 10 === 0 && score > lastScore) {
     // Decrease interval by 100ms, but never below 200ms
-    intervalTime = Math.max(400, intervalTime - 100); 
+    intervalTime = Math.max(250, intervalTime - 100); 
 
     console.log(`Interval reduced to: ${intervalTime}`);
 
