@@ -130,6 +130,10 @@ function createFallingObject() {
       object.remove();
     }
 
+    if (objectTop >= gamecontainer.clientWidth - object.offsetWidth) {
+      object.remove();
+    }
+
     if (gameMode == "play") {
       requestAnimationFrame(fallObject); // Continue animation
     }
