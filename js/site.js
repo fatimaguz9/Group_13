@@ -181,7 +181,7 @@ Cut it into slices and serve with whipped cream!`
                         "1 cup grated cheddar cheese (hand-grated, pre-shredded is not clean)",
                         "1 cup marinara sauce",
                       ],
-                      directions: `Preheat oven to 350℉.
+                      directions: `Preheat oven to 350 degrees Fahrenheit.
 Grate the zucchini and wring it out in a cheesecloth to remove as much water as possible.
 In your pie crust, combine the zucchini, mushrooms, onions, spices, and cheese. Mix it up a little for even distribution.
 Pour the marinara (or pizza sauce) over everything, and add a tiny bit more cheese just as a topping.
@@ -213,7 +213,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                         Prick the bottom and sides with a fork and bake 12-15 minutes until lightly browned. Bring the water to a boil in a large saucepan, then turn off the 
                         heat and dump in the big package of lime jello mix and use a whisk to stir it until everything is blended. Stir in the wicked elixir. 
                         Stir in the pudding mix. Stir in the cornstarch, the powdered sugar, the whipped cream, and then the small jello package. Whisk everything around 
-                        so it’s blended smoothly and there aren’t any lumps. Add food colouring as desired.** Pour as much slime as you can into the cooled pie shells.
+                        so it’s blended smoothly and there aren’t any lumps. Add food colouring as desired. Pour as much slime as you can into the cooled pie shells.
                         Just make sure you can carry them to your thermal hull without spilling. Refrigerate your miracles for a couple hours or so until the slime sets.`
                     },
 
