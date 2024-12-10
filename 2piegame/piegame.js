@@ -2,86 +2,53 @@ let scoreElement = document.getElementById('score');
 let highScoreElement = document.getElementById('hi-score');
 let gamecontainer = document.querySelector('.game-container');
 let basket = document.getElementById('basket');
-let action = document.getElementById('actions');
 
 let score = 0;
-let gameMode = "play";
-let life= 3
+let life = 3;
 
-
+// Get high score from local storage
 let highScore = localStorage.getItem('high-score') || 0;
 highScoreElement.innerText = `High-Score : ${highScore}`;
 
-function checkgamemode() {
-  if (gameMode == "play") {
-    gameMode = "pause";
-    action.innerText = "Play";
-  } else if (gameMode == "pause") {
-    gameMode = "play";
-    action.innerText = "Pause";
-  }
-}
-action.addEventListener('click', checkgamemode);
-
-// Basket movement
+// Basket movement 
 document.addEventListener('mousemove', (e) => {
-  if (gameMode == "pause") return;
-
+  // Get the mouse position relative to the viewport
   let basketPosition = e.clientX - basket.offsetWidth / 2;
+  
+  // Ensure the basket stays within the game container bounds
   if (basketPosition < 0) {
-    basketPosition = 0;  // Prevent moving past the left edge
+    basketPosition = 0; // Prevent moving past the left edge
   } else if (basketPosition > gamecontainer.clientWidth - basket.offsetWidth) {
-    basketPosition = gamecontainer.clientWidth - basket.offsetWidth;  // Prevent moving past the right edge
+    basketPosition = gamecontainer.clientWidth - basket.offsetWidth; // Prevent moving past the right edge
   }
 
-  basket.style.left = basketPosition + 'px';
+  basket.style.left = basketPosition  + 'px';
 });
 
-if (window.innerWidth <= 370) {
-  document.addEventListener('touchstart', (e) => {
-    if (gameMode == "pause") return;
-    startX = e.changedTouches[0].clientX;
-  });
-  document.addEventListener('touchend', (e) => {
-    if (gameMode == "pause") return;
-    endX = e.changedTouches[0].clientX;
-    let change = startX - endX;
-    let basketLeft = parseInt(window.getComputedStyle(basket).left, 10) || 0;
-    let newPosition = basketLeft - change;
 
-    // Ensure the basket does not move past the edges
-    if (newPosition < 0) {
-      newPosition = 0;
-    } else if (newPosition > gamecontainer.clientWidth - basket.offsetWidth) {
-      newPosition = gamecontainer.clientWidth - basket.offsetWidth;
-    }
-
-    basket.style.left = newPosition + 'px';
-  });
+if (score>6){
+  console.log("bot")
 }
 
 
 // Create falling objects
 function createFallingObject() {
-  if (gameMode == "pause") return;
-
   let object = document.createElement('div');
   object.classList.add('falling-object');
   let random = Math.floor(Math.random() * 4); // Choose an image randomly
   let backgrounds = ["../img/apple.PNG", "../img/cherry.PNG", "../img/peachpie.PNG", "../img/shrekpie.PNG"];
-  
+
   object.style.background = `url("${backgrounds[random]}")`;
   object.style.left = Math.random() * (gamecontainer.clientWidth - 30) + 'px';
   object.style.top = '0px';
   object.style.backgroundPosition = 'center';
   object.style.backgroundRepeat = 'no-repeat';
   object.style.backgroundSize = 'cover';
+
   if (backgrounds[random] === "../img/shrekpie.PNG") {
     object.classList.add('bomb'); // Add the 'bomb' class
   }
 
-  
- 
   gamecontainer.appendChild(object);
 
   // Animate the falling object
@@ -102,12 +69,11 @@ function createFallingObject() {
 
       if (objectLeft < basketRight && objectRight > basketLeft) {
         if (object.classList.contains('bomb')) {
-          life = life-1;
+          life = life - 1;
           console.log(life)
-          //reset
-          if (life==0){
+          // Reset if life reaches zero
+          if (life == 0) {
             location.reload();
-          
           }
         } else {
           score++;
@@ -130,16 +96,46 @@ function createFallingObject() {
       object.remove();
     }
 
-    if (gameMode == "play") {
-      requestAnimationFrame(fallObject); // Continue animation
-    }
+    requestAnimationFrame(fallObject); // Continue animation
   }
-
+ 
   fallObject();
 }
 
-if (life==0){
-  location.reload();
 
+
+
+let intervalTime = 1000; // Initial interval time of 1000ms
+let intervalID; // Declare intervalID outside to access it for clearing
+let lastScore = 0; // To keep track of the last score when interval was updated
+
+
+
+
+// Function to update the interval dynamically
+function updateInterval() {
+  // Only update interval when score increases and reaches a new multiple of 5
+  if (score % 2 === 0 && score > lastScore) {
+    // Decrease interval by 100ms, but never below 200ms
+    intervalTime = Math.max(200, intervalTime - 100); 
+
+    console.log(`Interval reduced to: ${intervalTime}`);
+
+    // Clear the previous interval and start a new one with the updated interval time
+    clearInterval(intervalID);
+    intervalID = setInterval(() => {
+      createFallingObject();
+    }, intervalTime);
+
+    // Update the last score when the interval is updated
+    lastScore = score;
+  }
 }
-setInterval(createFallingObject, 1000); // Create falling objects every 1 second
+
+// Start the initial falling object interval
+intervalID = setInterval(() => {
+  createFallingObject();
+}, intervalTime);
+
+// Check interval update every time the score changes
+setInterval(updateInterval, 500); // Check every 500ms for interval update
