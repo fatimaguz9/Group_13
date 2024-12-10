@@ -6,7 +6,7 @@ let action = document.getElementById('actions');
 
 let score = 0;
 let gameMode = "play";
-let life= 3
+let life = 3
 
 
 let highScore = localStorage.getItem('high-score') || 0;
