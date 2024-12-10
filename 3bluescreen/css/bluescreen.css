@@ -28,7 +28,7 @@ body {
   }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 40px;
     color: white;
     text-align: center; 
