@@ -396,6 +396,8 @@ function nextPie() {
   const pieDescription = document.getElementById("pie-description");
   if (pieDescription.style.display === "none") {
       pieDescription.style.display = "block";
+
+  
   }
 
  
@@ -499,3 +501,14 @@ function makeTimer() {
         
     }
 }
+
+
+
+
+
+const changeText = document.querySelector("#change-text");
+
+addEventListener("click",function() {
+  changeText.textContent = "Next Pie";
+
+})
