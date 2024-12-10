@@ -185,7 +185,7 @@ Cut it into slices and serve with whipped cream!`
 Grate the zucchini and wring it out in a cheesecloth to remove as much water as possible.
 In your pie crust, combine the zucchini, mushrooms, onions, spices, and cheese. Mix it up a little for even distribution.
 Pour the marinara (or pizza sauce) over everything, and add a tiny bit more cheese just as a topping.
-Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, and serve. (See note below)`
+Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, and serve.`
                   },
 
                   { 
@@ -287,7 +287,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
                                 "3 cups Dino nuggets",
                                 "2 tablespoons Dipping sauce of choice"
                             ],
-                              directions: `Heat up Dino nuggets in microwave, Throw Dino begets into pie, Drizzle with sauce of choice.`
+                              directions: `Heat up Dino nuggets in microwave, Throw Dino nuggets into pie, Drizzle with sauce of choice.`
                           },
 
                           { 
@@ -310,7 +310,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 Pour the flour mixture into a mixing bowl, and add the cool water (do not add the actual ice) 2 tablespoons at a time. Toss the flour mixture with the water. By the time you get to five tablespoons of water, you should be approching a dough ball that will clean the sides of the bowl as you stir.
 Dump the dough ball on a peice of waxed paper, and place a second peice of waxed paper on top. Squish the dough flat, then begin rolling the dough out with a rolling pin. You will want to spin the wax-papered dough as you go, and roll out from the center. You are looking for an evenly flat, 10" circle (or close approximation thereof) of dough. HINT - touch the dough as little as possible. Your own body heat will cause the lard to melt, at the expense of a flaky crust. 
 Peel off the top piece of waxed paper. Place your pie tin on top of the dough, upside down. Then flip the whole works over so that the pastry shell falls into the pie tin. Then peel the remaining peice of paper back, and press the dough into the pie tin. The edges can be crunched up with your fingertips, then squished with the tines of a fork to make them look semi-presentable. Bake the pie shell at 350 degrees for 5 minutes. This prevents a doughy pie shell. Set the now pre-baked shell aside, while you turn to your filling.
-Cut Up the Onions and Bell Peppers, and Fry Them Up on medium high heat until they are transluscent.
+Cut up the onions and bell peppers, and fry them up on medium high heat until they are transluscent.
 Crush two cups of Doritos in a small food processor and let it run for about 45 seconds. 
 Add the Dorito Crumbs to the Onion and Pepper Mixture, Add and stir. 
 Beat the Eggs and Sour Cream Together until smooth
@@ -329,12 +329,12 @@ Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie!`
                                       "1/2 cup (120ml) ice water, more if needed",
                                   ],
                                   directions: `Mix the flour, sugar, and salt together in a large bowl. Add the cubed butter on top.
-Using a pastry cutter, food processor, or two forks (pastry cutter is ideal, see post above), cut the butter into the dry ingredients until all flour is coated. You’re looking for pea-sized bits of flour coated butter. A few larger bits of butter is OK.
+Using a pastry cutter, food processor, or two forks, cut the butter into the dry ingredients until all flour is coated. You’re looking for pea-sized bits of flour coated butter. A few larger bits of butter is OK.
 Measure 1/2 cup (120ml) of water in a cup. Add ice. Stir it around. From that, measure 1/2 cup (120ml) of water since the ice has melted a bit. Drizzle the cold water in, 2 Tablespoons (30ml) at a time, and stir after each addition. Stop adding water when the dough comes together easily and begins to form large clumps. The dough will feel moist and a little sticky, but not feel overly wet. Do not add any more water than you need to.
 
 Place pie dough on a lightly floured work surface. Using floured hands, fold the dough into itself until the flour is fully incorporated into the fats. Form it into a ball. Divide dough in half. Using your hands, flatten each half into a 1-inch thick disc.
 Wrap each disc tightly in plastic wrap and refrigerate for at least 2 hours and up to 5 days before using in a pie recipe.
-When rolling out the chilled pie dough discs, use gentle force with your rolling pin. Start from the center of the disc and work your way out in all directions, turning the dough with your hands between rolls. Smooth out the edges if you notice cracks. (See video above.) Keeping your work surface, rolling pin, and hands lightly floured makes rolling out easier.
+When rolling out the chilled pie dough discs, use gentle force with your rolling pin. Start from the center of the disc and work your way out in all directions, turning the dough with your hands between rolls. Smooth out the edges if you notice cracks. Keeping your work surface, rolling pin, and hands lightly floured makes rolling out easier.
 Proceed with the pie per your recipe’s instructions.`
                               }, 
 
