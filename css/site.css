@@ -10,6 +10,10 @@
   text-align: center;
 }
 
+body {
+  background-color: inherit;
+}
+
 /* Centering Content (Button) */
 .center1 {
   display: flex;
@@ -61,7 +65,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(140, 0, 55); /* Slightly darker hover effect */
+  background-color: rgb(125, 0, 50); /* Slightly darker hover effect */
 }
 
 
@@ -73,8 +77,8 @@ button:hover {
 @import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
 
 #seconds {
-  font-size: 50px;
-  color: #abcd58;
+  font-size: 90px;
+  color: inherit;
 }
 
 
@@ -83,9 +87,11 @@ button:hover {
   
   text-align: center;
   font-family: 'Covered By Your Grace', cursive;
-  background: #ffffff;
-  top: 310px;
-  left: 750px;
+  background: transparent;
+  top: 52%;
+  bottom: 25%;
+  left: 47%;
+  right: 50%;
   position: absolute;
-  margin-top: -160px;
+  margin-top: -125px;
 }

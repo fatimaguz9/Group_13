@@ -5,7 +5,7 @@ const pies = [
       name: "Snickers Pie",
       image: "./img/chocolate.PNG",
       ingredients: [
-          "Six 1.56-ounce Snickers® candy bars, roughly chopped",
+          "Six 1.56-ounce Snickers candy bars, roughly chopped",
           "6 tablespoons unsalted butter, cubed",
           "One 9-ounce package chocolate wafer cookies",
           "1/2 cup dulce de leche",
@@ -34,7 +34,7 @@ const pies = [
           "1 tablespoon lemon juice",
           "1 double pie crust"
       ],
-      directions: `Preheat oven to 425°F. In a bowl, mix apples, sugar, flour, cinnamon, nutmeg, and lemon juice. 
+      directions: `Preheat oven to 425 degrees F. In a bowl, mix apples, sugar, flour, cinnamon, nutmeg, and lemon juice. 
       Place one crust in a pie pan and add the apple mixture. Top with the second crust, seal edges, and cut slits on the top. 
       Bake for 45 minutes or until crust is golden.`
   },
@@ -50,7 +50,7 @@ const pies = [
             "1 double pie crust",
             "1 tablespoon butter (optional, for dotting the filling)"
         ],
-        directions: `Preheat oven to 375°F. In a saucepan, combine cherries, sugar, cornstarch, almond extract, and lemon juice. 
+        directions: `Preheat oven to 375 degrees F. In a saucepan, combine cherries, sugar, cornstarch, almond extract, and lemon juice. 
         Cook over medium heat until the mixture thickens and starts to bubble. Remove from heat. 
         Roll out one pie crust and place it in a pie pan. Add the cherry filling. 
         Dot the filling with butter if desired. Cover with the second crust, seal edges, and cut slits on top. 
@@ -58,7 +58,7 @@ const pies = [
     },
     { 
       name: "Shrek's Swamp Pie",
-          image: "./img/shrekpie.png", //add pie pic
+          image: "./img/shrekpie.png", 
           ingredients: [
               "3 cups Loam Soil",
               "1 cup Water",
@@ -68,12 +68,12 @@ const pies = [
               "1 cup water",
           ],
           directions: `Mix the loam soil with water and form the crust in a pie pan. Then
-          mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair 
-          Finally, serve to your enemies. `//pie stuff
+          mix the mud and water until it forms a goopie texture. Next, top with algae and a homemade sign that says “get out of my swamp” for extra flair. 
+          Finally, serve to your enemies. `
       },
       { 
         name: "Blackberry Pie", 
-            image: "./img/blackberry.PNG", //add pie pic
+            image: "./img/blackberry.PNG", 
             ingredients: [
                 "4 cups fresh blackberries",
                 "3/4 cup white sugar or more to taste, divided",
@@ -82,17 +82,18 @@ const pies = [
                 "2 tablespoons milk",
                 "...",
             ],
-            directions: `...`//pie stuff
+            directions: `Line the prepared plate with the bottom crust. 
+            Fill the pie and cover with the top crust. Brush the pie with milk and sprinkle it with sugar. Bake the pie until the filling is bubbly and the topping is golden brown.`//pie stuff
         },
         { 
-          name: "Surprise Pie", //add pie
-              image: "./img/surprise pie.png", //add pie pic
-              directions: `Click to Find Out`//pie stuff
+          name: "Surprise Pie", 
+              image: "./img/surprisepie.png", 
+              directions: `OOH what's this??`
           },
       
       {  
         name: "Sweet Potato Pie", 
-          image: "./img/pietransparant.png", //add pie pic
+          image: "./img/sweetpotato.png", //add pie pic
            ingredients: [ 
               "1 all-butter pie crust",
               "1 1/2 lb. sweet potatoes",
@@ -126,7 +127,7 @@ Tip: Press the sweet potatoes through a fine-mesh sieve for an even smoother tex
 
             {  
               name: "Pumpkin Pie", 
-                  image: "./img/pumpkin.PNG", //add pie pic
+                  image: "./img/pumpkin.PNG", 
                   ingredients: [ 
                     "1 9-inch homemade pie crust or store-bought, deep dish, unbaked",
                     "3/4 cup granulated sugar",
@@ -141,7 +142,7 @@ Tip: Press the sweet potatoes through a fine-mesh sieve for an even smoother tex
                   directions: `Preheat oven to 425 degrees F.
 In a large bowl, beat the eggs and pumpkin together.  In a separate bowl, combine the sugar, cinnamon, salt, ginger and cloves, and add to pumpkin mixture.
 Gradually stir in the evaporated milk. Carefully pour mixture into unbaked pie shell. 
-Bake at 425 degrees F for 15 minutes. Reduce temperature to 350° F; bake for 40 to 50 minutes longer, or until the pie is set. Check for doneness by giving the pie a gentle wiggle. The center may jiggle just a tiny bit. It will continue to set up as it cools. Or, it is done when a sharp knife inserted in the center comes out clean.
+Bake at 425 degrees F for 15 minutes. Reduce temperature to 350 degrees F; bake for 40 to 50 minutes longer, or until the pie is set. Check for doneness by giving the pie a gentle wiggle. The center may jiggle just a tiny bit. It will continue to set up as it cools. Or, it is done when a sharp knife inserted in the center comes out clean.
 Cool completely on a wire cooling rack. Serve immediately with whipped cream and caramel pecan topping, if desired` 
               },
 
@@ -168,7 +169,7 @@ Cut it into slices and serve with whipped cream!`
 
                 {  
                   name: "Pizza Pie (From The Gracious Pantry)", 
-                      image: "./img/pizza pie.png", //add pie pic
+                      image: "./img/pizzapie.png", 
                       ingredients: [ 
                         "1 standard pie crust",
                         "1 cup grated zucchini",
@@ -206,19 +207,19 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                             "Food colouring as desired",
                         ],
                         directions: `Preheat oven to 450 degrees Fahrenheit. Mix flour with salt in a small bowl. Use a pastry blender to cut in shortening. Mix in the water 
-                        until it holds as a dough, then roll it out on a lightly floured surface to a circle with a radius about ¾" inch longer than the pie tin. Get it into the 
-                        pie tin and smooth out any tears or cracks.  Flute the edges to made it beautiful (you can do this by placing the index finger and thumb of one hand against the 
+                        until it holds as a dough, then roll it out on a lightly floured surface to a circle with a radius about 3/4" inch longer than the pie tin. Get it into the 
+                        pie tin and smooth out any tears or cracks. Flute the edges to made it beautiful (you can do this by placing the index finger and thumb of one hand against the 
                         outside of the shell and gently pulling in while the index finger of your other hand pushes out from the inside of the shell between your other two fingers). 
                         Prick the bottom and sides with a fork and bake 12-15 minutes until lightly browned. Bring the water to a boil in a large saucepan, then turn off the 
                         heat and dump in the big package of lime jello mix and use a whisk to stir it until everything is blended. Stir in the wicked elixir. 
-                        Stir in the pudding mix. Stir in the cornstarch, the powdered sugar, the whipped cream, and then the small jello package.  Whisk everything around 
-                        so it’s blended smoothly and there aren’t any lumps. Add food colouring as desired.** Pour as much slime as you can into the cooled pie shells. 
+                        Stir in the pudding mix. Stir in the cornstarch, the powdered sugar, the whipped cream, and then the small jello package. Whisk everything around 
+                        so it’s blended smoothly and there aren’t any lumps. Add food colouring as desired.** Pour as much slime as you can into the cooled pie shells.
                         Just make sure you can carry them to your thermal hull without spilling. Refrigerate your miracles for a couple hours or so until the slime sets.`
                     },
 
                     {  
                       name: "Coconut Cream Pie ", 
-                          image: "./img/coconutpie.PNG", //add pie pic
+                          image: "./img/coconutpie.PNG", 
                           ingredients: [ 
                               "1 cup sweetened flaked coconut",
                                "3 cups half-and-half",
@@ -242,7 +243,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
 
                    { 
                       name: "Key Lime Pie", 
-                          image: "./img/keylime.PNG", //add pie pic
+                          image: "./img/keylime.PNG", 
                           ingredients: [ 
                               "11 (about 160g) full-sheet graham crackers",
                               "1/2 cup (62g) salted macadamia nuts (roasted)",
@@ -254,7 +255,7 @@ Bake for 20-30 minutes or until the vegetables are cooked through. Cool, slice, 
                               "1 teaspoon key lime zest"
                           ],
                           directions: `Preheat oven to 350 degrees F
- Make the Crust: Using a food processor, pulse the graham crackers and macadamia nuts together into coarse crumbs. A few larger pieces of nuts is OK. Pour into a medium bowl and stir in the sugar. Add the melted butter and stir until combined. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased 9-inch pie dish. Use your hand to pat down the crumbs into the bottom and up the sides to make a crust. Use medium pressure—simply pat down until the mixture is no longer crumbly. Tips: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom corner where the edge and bottom meet to help make a rounded crust—this helps prevent the crust from falling apart when you slice into the pie.  
+ Make the Crust: Using a food processor, pulse the graham crackers and macadamia nuts together into coarse crumbs. A few larger pieces of nuts is OK. Pour into a medium bowl and stir in the sugar. Add the melted butter and stir until combined. The mixture will be thick, coarse, and sandy. Try to smash/break up any large chunks. Pour the mixture into an ungreased 9-inch pie dish. Use your hand to pat down the crumbs into the bottom and up the sides to make a crust. Use medium pressure — simply pat down until the mixture is no longer crumbly. Tips: You can use a small flat-bottomed measuring cup to help press down the bottom crust and smooth out the surface, but do not pack down too hard. And run a spoon around the bottom corner where the edge and bottom meet to help make a rounded crust. This helps prevent the crust from falling apart when you slice into the pie.  
  Pre-bake the crust for 8 minutes. Remove from the oven and leave the oven on.
 Make the Filling: Whisk the sweetened condensed milk, lime juice, and egg yolks together (or use an electric mixer). Whisk in the lime zest. Pour into warm crust.
 Bake the pie for 18-20 minutes or until only *slightly* jiggly in the center. You want it mostly set. Remove from the oven and allow to cool completely on a wire rack. Once cool, cover and chill for at least 1 hour (and up to 3 days) before serving
@@ -263,25 +264,25 @@ Garnish as desired. Store leftovers in the refrigerator for up to 1 week.`
 
                       {  
                         name: "No-Bake Peanut Butter Fluff Pie", 
-                            image: "./img/peanut butter pie.png", //add pie pic
+                            image: "./img/peanutbutterpie.png", 
                             ingredients: [ 
                                 "1 package (8-ounce) cream cheese, at room temperature",
                                 "1 1/4 cups smooth peanut butter",
                                 "1 cup heavy cream",
-                                "1 cup marshmallow crème (such as Fluff)",
+                                "1 cup marshmallow creme (such as Fluff)",
                                 "1/4 cup smooth peanut butter",
-                                "1 cup marshmallow crème (such as Fluff)"
+                                "1 cup marshmallow creme (such as Fluff)"
                             ],
                             directions: `Butter a 9 1/2-inch deep-dish pie dish.
 Melt the butter in a large saucepan over medium-low heat. Add 2 cups of the marshmallow creme and whisk continuously until melted and combined with the butter, about 2 minutes. Remove from the heat and stir in the cereal and pretzels until coated. Press the mixture into the bottom and all the way up the sides of the prepared pie dish. 
-Meanwhile, beat the cream cheese, 1 cup of the marshmallow crème and 1 cup of the peanut butter in a large bowl with an electric mixer on medium speed until smooth, about 2 minutes. Slowly pour in the heavy cream and continue beating until light, fluffy and stiff peaks form, about 5 minutes. 
+Meanwhile, beat the cream cheese, 1 cup of the marshmallow creme and 1 cup of the peanut butter in a large bowl with an electric mixer on medium speed until smooth, about 2 minutes. Slowly pour in the heavy cream and continue beating until light, fluffy and stiff peaks form, about 5 minutes. 
 Pour the filling into the crust and smooth out the top, taking care not to cover the crust edge. Microwave the remaining 1/4 cup peanut butter in a small microwave-safe bowl in 30-second intervals, stirring after each, until melted and pourable, about 1 minute.
 Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshmallow creme onto the center of the pie and smooth it out slightly so that it looks like a soft marshmallow pillow. Drizzle with the remaining peanut butter. Chill until set, 6 hours and up to overnight. `//pie stuff
                         },
 
                         {  
                           name: "Dino Nuggie Pie", 
-                              image: "./img/dino nuggets.png", //add pie pic
+                              image: "./img/dinonuggets.png", 
                               ingredients: [
                                 "3 cups Dino nuggets",
                                 "2 tablespoons Dipping sauce of choice"
@@ -291,7 +292,7 @@ Drizzle half of the peanut butter over the pie. Spoon the remaining 1 cup marshm
 
                           { 
                             name: "Dorito Pie", 
-                                image: "./img/dorito pie.png", //add pie pic
+                                image: "./img/doritopie.png", 
                                 ingredients: [
                                   "1 cup All Purpose Flour",
                                   "1/3 cup Lard",
@@ -311,10 +312,10 @@ Dump the dough ball on a peice of waxed paper, and place a second peice of waxed
 Peel off the top piece of waxed paper. Place your pie tin on top of the dough, upside down. Then flip the whole works over so that the pastry shell falls into the pie tin. Then peel the remaining peice of paper back, and press the dough into the pie tin. The edges can be crunched up with your fingertips, then squished with the tines of a fork to make them look semi-presentable. Bake the pie shell at 350 degrees for 5 minutes. This prevents a doughy pie shell. Set the now pre-baked shell aside, while you turn to your filling.
 Cut Up the Onions and Bell Peppers, and Fry Them Up on medium high heat until they are transluscent.
 Crush two cups of Doritos in a small food processor and let it run for about 45 seconds. 
-Add the Dorito Crumbs to the Onion and Pepper Mixture, Add and stir. I should try this with jalapenos next time. 
+Add the Dorito Crumbs to the Onion and Pepper Mixture, Add and stir. 
 Beat the Eggs and Sour Cream Together until smooth
 Pour Onion Mix Into Pie Shell, Then Top With Egg Mixture, cheese, salt, and pepper 
-Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie! You can tell it is done if it doesn't jiggle. I piped some sour cream onto the wedges once I realized I would have a single remaining unclogged arterie after all was said and done. Turned out delish, although the Doritos presented a very subtle flavor. I should have used more.`
+Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie!`
                             }, 
                           
                             { 
@@ -329,7 +330,7 @@ Bake the Pie at 350 Degrees for 50 Minutes, and Voila. Dorito Onion Pie! You can
                                   ],
                                   directions: `Mix the flour, sugar, and salt together in a large bowl. Add the cubed butter on top.
 Using a pastry cutter, food processor, or two forks (pastry cutter is ideal, see post above), cut the butter into the dry ingredients until all flour is coated. You’re looking for pea-sized bits of flour coated butter. A few larger bits of butter is OK.
-Measure 1/2 cup (120ml) of water in a cup. Add ice. Stir it around. From that, measure 1/2 cup (120ml) of water since the ice has melted a bit. Drizzle the cold water in, 2 Tablespoons (30ml) at a time, and stir after each addition. Stop adding water when the dough comes together easily and begins to form large clumps. The dough will feel moist and a little sticky, but not feel overly wet. Do not add any more water than you need to. I always use about 1/2 cup (120ml) of ice water.
+Measure 1/2 cup (120ml) of water in a cup. Add ice. Stir it around. From that, measure 1/2 cup (120ml) of water since the ice has melted a bit. Drizzle the cold water in, 2 Tablespoons (30ml) at a time, and stir after each addition. Stop adding water when the dough comes together easily and begins to form large clumps. The dough will feel moist and a little sticky, but not feel overly wet. Do not add any more water than you need to.
 
 Place pie dough on a lightly floured work surface. Using floured hands, fold the dough into itself until the flour is fully incorporated into the fats. Form it into a ball. Divide dough in half. Using your hands, flatten each half into a 1-inch thick disc.
 Wrap each disc tightly in plastic wrap and refrigerate for at least 2 hours and up to 5 days before using in a pie recipe.
@@ -337,19 +338,20 @@ When rolling out the chilled pie dough discs, use gentle force with your rolling
 Proceed with the pie per your recipe’s instructions.`
                               }, 
 
-                      { //another pie sample format 
-                        name: "pie name", //add pie
-                            image: "./img/pie.jpg", //add pie pic
-                            ingredients: [ //pie ingredients
-                                "...",
-                                "...",
-                                "...",
-                                "...",
-                                "...",
-                                "...",
-                            ],
-                            directions: `...`//pie stuff
-                        }, 
+                              //Template to add more pies
+                      //{   
+                       // name: "pie name", //add pie
+                           // image: "./img/pie.jpg", //add pie pic
+                           // ingredients: [ //pie ingredients
+                           //     "...",
+                           //     "...",
+                           //     "...",
+                           //     "...",
+                           //     "...",
+                           //    "...",
+                           // ],
+                           // directions: `...`//pie stuff
+                       // }, 
 
 ];
 
@@ -394,6 +396,8 @@ function nextPie() {
   const pieDescription = document.getElementById("pie-description");
   if (pieDescription.style.display === "none") {
       pieDescription.style.display = "block";
+
+  
   }
 
  
@@ -433,11 +437,29 @@ if(currentPie.name=="Surprise Pie"){
   document.getElementById("pie-directions").textContent = currentPie.directions;
 }
   
+//font changes color 
+setInterval(() => {
+  const element = document.querySelector('#seconds');
+ element.style.color = getRandomColor();
+},1000);
 
+//background color changer  
+let seconds = 0;
 
+function getRandomColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
 
+function updateTimer() {
+  seconds++;
+  const timerElement = document.querySelector(".timer");
+  if (timerElement) {
+    timerElement.innerText = seconds;
+  }
+    // Change background color only when the timer updates
+    document.body.style.backgroundColor = getRandomColor();
+}
 
-//I dont know why it crashes the sites
   //timer JS
   function countdown(n) {
     const intervalId = setInterval(() => {
@@ -479,3 +501,14 @@ function makeTimer() {
         
     }
 }
+
+
+
+
+
+const changeText = document.querySelector("#change-text");
+
+addEventListener("click",function() {
+  changeText.textContent = "Next Pie";
+
+})
