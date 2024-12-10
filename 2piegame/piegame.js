@@ -2,13 +2,17 @@ let scoreElement = document.getElementById('score');
 let highScoreElement = document.getElementById('hi-score');
 let gamecontainer = document.querySelector('.game-container');
 let basket = document.getElementById('basket');
+let lifee = document.getElementById('life');
 
+let speed=2
 let score = 0;
-let life = 3;
+let life= 3
+let adjust =4
 
 // Get high score from local storage
 let highScore = localStorage.getItem('high-score') || 0;
 highScoreElement.innerText = `High-Score : ${highScore}`;
+lifee.innerText = `Life : ${life}`;
 
 // Basket movement 
 document.addEventListener('mousemove', (e) => {
@@ -26,9 +30,6 @@ document.addEventListener('mousemove', (e) => {
 });
 
 
-if (score>6){
-  console.log("bot")
-}
 
 
 // Create falling objects
@@ -40,7 +41,7 @@ function createFallingObject() {
 
   object.style.background = `url("${backgrounds[random]}")`;
   object.style.left = Math.random() * (gamecontainer.clientWidth - 30) + 'px';
-  object.style.top = '0px';
+  object.style.top = '-100px';
   object.style.backgroundPosition = 'center';
   object.style.backgroundRepeat = 'no-repeat';
   object.style.backgroundSize = 'cover';
@@ -54,9 +55,13 @@ function createFallingObject() {
   // Animate the falling object
   function fallObject() {
     let objectTop = parseInt(window.getComputedStyle(object).top, 10);
+    // Adjust falling speed //sp=4 score=0
+    if (speed < score-adjust){
+      speed= speed+2
+      adjust= adjust*1.5
 
-    // Adjust falling speed
-    let fallSpeed = 2 + Math.random() * 4; // Slight variation in speed
+    }
+    let fallSpeed = 2 + Math.random() * speed; // Slight variation in speed
 
     object.style.top = objectTop + fallSpeed + 'px';
 
@@ -70,7 +75,10 @@ function createFallingObject() {
       if (objectLeft < basketRight && objectRight > basketLeft) {
         if (object.classList.contains('bomb')) {
           life = life - 1;
+          lifee.textContent = `Life : ${life}`;
+
           console.log(life)
+
           // Reset if life reaches zero
           if (life == 0) {
             location.reload();
@@ -117,7 +125,7 @@ function updateInterval() {
   // Only update interval when score increases and reaches a new multiple of 5
   if (score % 2 === 0 && score > lastScore) {
     // Decrease interval by 100ms, but never below 200ms
-    intervalTime = Math.max(200, intervalTime - 100); 
+    intervalTime = Math.max(400, intervalTime - 100); 
 
     console.log(`Interval reduced to: ${intervalTime}`);
 
