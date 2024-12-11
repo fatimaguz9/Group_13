@@ -8,7 +8,7 @@ let speed=2
 let score = 0;
 let life= 3
 let adjust =4
-
+console.log(1)
 // Get high score from local storage
 let highScore = localStorage.getItem('high-score') || 0;
 highScoreElement.innerText = `High-Score : ${highScore}`;
