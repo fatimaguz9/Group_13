@@ -46,9 +46,7 @@ function createFallingObject() {
   object.style.backgroundRepeat = 'no-repeat';
   object.style.backgroundSize = 'cover';
 
-  if (backgrounds[random] === "../img/shrekpie.PNG") {
-    object.classList.add('bomb'); // Add the 'bomb' class
-  }
+ 
 
   gamecontainer.appendChild(object);
 
