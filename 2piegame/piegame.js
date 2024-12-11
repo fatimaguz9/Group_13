@@ -8,7 +8,7 @@ let speed=2
 let score = 0;
 let life= 3
 let adjust =4
-console.log(1)
+console.log(5)
 // Get high score from local storage
 let highScore = localStorage.getItem('high-score') || 0;
 highScoreElement.innerText = `High-Score : ${highScore}`;
@@ -37,7 +37,7 @@ function createFallingObject() {
   let object = document.createElement('div');
   object.classList.add('falling-object');
   let random = Math.floor(Math.random() * 4); // Choose an image randomly
-  let backgrounds = ["../img/apple.PNG", "../img/cherry.PNG", "../img/peachpie.PNG", "../img/shrekpie.PNG"];
+  let backgrounds = ["../img/apple.PNG", "../img/cherry.PNG", "../img/peachpie.PNG", "../img/shrekpie.png"];
 
   object.style.background = `url("${backgrounds[random]}")`;
   object.style.left = Math.random() * (gamecontainer.clientWidth - 30) + 'px';
@@ -46,7 +46,9 @@ function createFallingObject() {
   object.style.backgroundRepeat = 'no-repeat';
   object.style.backgroundSize = 'cover';
 
- 
+  if (backgrounds[random] === "../img/shrekpie.png") {
+    object.classList.add('bomb'); // Add the 'bomb' class
+  }
 
   gamecontainer.appendChild(object);
 

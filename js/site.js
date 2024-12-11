@@ -58,7 +58,7 @@ const pies = [
     },
     { 
       name: "Shrek's Swamp Pie",
-          image: "./img/shrekpie.PNG", 
+          image: "./img/shrekpie.png", 
           ingredients: [
               "3 cups Loam Soil",
               "1 cup Water",
