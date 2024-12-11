@@ -37,7 +37,7 @@ function createFallingObject() {
   let object = document.createElement('div');
   object.classList.add('falling-object');
   let random = Math.floor(Math.random() * 4); // Choose an image randomly
-  let backgrounds = ["../img/apple.PNG", "../img/cherry.PNG", "../img/peachpie.PNG", "../img/shrekpie.PNG"];
+  let backgrounds = ["../img/apple.PNG", "../img/cherry.PNG", "../img/peachpie.PNG", "../img/shrekpie.png"];
 
   object.style.background = `url("${backgrounds[random]}")`;
   object.style.left = Math.random() * (gamecontainer.clientWidth - 30) + 'px';
